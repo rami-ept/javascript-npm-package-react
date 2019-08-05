@@ -1,0 +1,19 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "dependencies": {
+    "flow-bin": "^0.74.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build:clean": "react-scripts build",
+    "build:prod": "react-scripts build",
+    "test:coverage": "echo Mock stage test:coverage",
+    "eject": "react-scripts eject",
+    "install-types": "echo Mock stage install-types",
+    "flow:check": "node node_modules/flow-bin/cli.js check"
+  }
+}
